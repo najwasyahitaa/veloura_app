@@ -57,8 +57,6 @@ class DashboardPage extends StatelessWidget {
                 ),
               ],
             ),
-
-            // Menu sejajar
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 25, horizontal: 12),
               child: Row(
