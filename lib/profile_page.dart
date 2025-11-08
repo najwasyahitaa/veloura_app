@@ -15,7 +15,6 @@ class ProfilePage extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            // Foto profil dengan efek bayangan halus
             Container(
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
@@ -34,7 +33,6 @@ class ProfilePage extends StatelessWidget {
             ),
             const SizedBox(height: 20),
 
-            // Nama dan info singkat
             const Text(
               "Najwa Mahdewi Syahita",
               style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
@@ -43,8 +41,6 @@ class ProfilePage extends StatelessWidget {
             const Text("Email: najwasyahita0605@gmail.com"),
 
             const SizedBox(height: 15),
-
-            // Tetap sejajar seperti versi awal
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
@@ -57,10 +53,7 @@ class ProfilePage extends StatelessWidget {
                 Text("Divisi: Teknologi Informasi"),
               ],
             ),
-
             const SizedBox(height: 40),
-
-            // Tombol kembali
             ElevatedButton.icon(
               onPressed: () {
                 Navigator.pop(context);
