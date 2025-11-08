@@ -4,7 +4,7 @@ class ProfilePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFFE3F2FD), // warna biru muda lembut
+      backgroundColor: const Color(0xFFE3F2FD), 
       appBar: AppBar(
         title: const Text("Profil Karyawan"),
         backgroundColor: Colors.blueAccent,
